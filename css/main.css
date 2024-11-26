@@ -1,9 +1,9 @@
-@import './core/_index.css';
+@import './core/index.css';
 @import './core/animation.css';
-@import './layout/_nav.css';
-@import './layout/_galeria.css';
-@import './layout/_pitch.css';
-@import './layout/_expl.css';
+@import './layout/nav.css';
+@import './layout/galeria.css';
+@import './layout/pitch.css';
+@import './layout/expl.css';
 
 
 *{
