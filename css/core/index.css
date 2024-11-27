@@ -1,0 +1,100 @@
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .texto {
+      position: relative;
+      margin-top: 250px;
+      margin-left: 200px;
+      margin-right: 200px;
+      background: #1c1f2b;
+      border-radius: 10px;
+      padding: 2em;
+      font-size: large; 
+      color: rgb(255, 255, 255);
+      font-family: "Bungee", sans-serif;
+  }
+  
+  .logos{
+      display: inline-block;
+      position: relative;
+      bottom: -250px;
+      left: 400px;
+  }
+  
+  .logos img{
+      margin: 50px;
+  }
+  
+  .integrantes{
+      position: relative;
+      display: flex;
+      left: 100px;
+      top: 140px;
+      width: 1700px;
+      height: 700px;
+      z-index: -1;
+      padding: 0px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 90px;
+  }
+
+  @media (max-width: 800px) {
+    .integrantes{
+        left: 0px;
+        top: 120px;
+        width: 100%;
+        height: 41%;
+        gap: 20px;
+    }
+
+    .integrantes img{
+        width: 33%;
+        height: 50%;
+    }
+
+    .logos{
+        bottom: -250px;
+        left: 0px;
+    }
+    
+    .logos img{
+        margin: 10px;
+    }
+
+    .logos .S{
+        height: 10%;
+        width: 25%;
+    }
+    
+    .logos .R{
+        height: 10%;
+        width: 40%;
+    }
+
+    .logos .P{
+        height: 11%;
+        width: 20%;
+    }
+
+    .logos .C{
+        height: 11%;
+        width: 20%;
+    }
+
+    .texto {
+        margin: 0px;
+        font-size: small; 
+        width: 90%;
+        top: 90px;
+        left: 5%;
+    }
+
+    main{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+}
