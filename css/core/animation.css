@@ -10,6 +10,14 @@
 	z-index: -1;
 }
 
+.wow {
+	opacity: 0;
+        position: absolute;
+        top: 170px;
+	z-index: -1;
+	
+	
+
 @keyframes fade-in{
 	0%{ opacity: 0;}
 	90%{ opacity: 0;}
@@ -58,9 +66,15 @@
 
   @media (max-width: 800px) {
 	.out {
+		animation: none;
+	}
+	  
+
+	.wow    {
 		top: 100px;
 		height: 50%;
 		width: 100%;
 		align-items: center;
+		animation: fade-out 5s;
 	}
 }
