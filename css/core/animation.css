@@ -13,7 +13,7 @@
 .wow {
 	opacity: 0;
         position: absolute;
-	z-index: -2;
+	z-index: -1;
 	top: 0px;
 }
 	
