@@ -71,7 +71,7 @@
 
   @media (max-width: 800px) {
 	.out {
-		animation: oo;
+		animation: oo 1s;
 	}
 	  
 
