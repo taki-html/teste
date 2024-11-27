@@ -30,6 +30,11 @@
 	100%{ opacity: 0;}
 }
 
+@keyframes oo{
+	0%{ opacity: 0;}
+	100%{ opacity: 0;}
+}
+
 .texto::after, .texto::before{
 	content: '';
 	position: absolute;
@@ -66,7 +71,7 @@
 
   @media (max-width: 800px) {
 	.out {
-		animation: none;
+		animation: oo;
 	}
 	  
 
