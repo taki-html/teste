@@ -34,7 +34,6 @@ main{
       top: 140px;
       width: 1700px;
       height: 700px;
-      z-index: -1;
       padding: 0px;
       flex-wrap: wrap;
       justify-content: center;
