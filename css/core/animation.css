@@ -73,6 +73,8 @@
   @media (max-width: 800px) {
 	.out {
 		animation: oo 1s;
+		height: 50%;
+		width: 100%;
 	}
 	  
 
